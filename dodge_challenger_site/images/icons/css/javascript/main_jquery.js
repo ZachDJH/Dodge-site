@@ -10605,7 +10605,7 @@ $("#mobile-menu").click(function showMenu() {
 			"transition": "0.3s",
 			"left": "0%"
 		});
-	    $("body").css({"height": "100%", "overflow": "hidden"});
+	    $("html").css({"height": "100%", "overflow-y": "hidden"});
 	    
 	}
 	document.addEventListener("click", hideMenu(flag), false);
@@ -10617,7 +10617,7 @@ function hideMenu(flag) {
 			"transition": "0.4s",
 			"left": "-100%"
 		}).addClass("hidden");
-		$("body").css({"height": "0%", "overflow": "visible", "overflow-x": "hidden"});
+		$("html").css({"height": "0%", "overflow-y": "visible"});
     }
 }
 
