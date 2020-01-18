@@ -512,9 +512,10 @@ div.card > img {
   }
 
   .gallery-text {
+    text-align: center;
     top: -200px;
-    left: 30%;
-    right: 0%;
+    left: auto;
+    right: auto;
     width: 100%;
   }
 
@@ -527,7 +528,7 @@ div.card > img {
     padding: 0;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1630px) {
   .content-text {
     text-align: center;
     width: 100%;
@@ -535,6 +536,14 @@ div.card > img {
     white-space: normal;
     margin: 0 auto;
     font-size: 0.6rem;
+  }
+
+  .gallery-text {
+    text-align: center;
+    top: -200px;
+    left: auto;
+    right: auto;
+    width: 100%;
   }
 }
 div.content-img {
