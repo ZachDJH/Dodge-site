@@ -486,7 +486,7 @@ div.card > img {
 .gallery-text {
 	position: absolute;
 	top: -5%;
-	left: -12%;
+	left: -30%;
 }
 
 .content-text {
@@ -505,9 +505,8 @@ div.card > img {
 	flex-direction: row;
 	flex-wrap: wrap;
 	flex-shrink: 0;
-	justify-content: center;
 	width: 100%;
-	margin-left: 15.5%;
+	margin-left: 33%;
 }
 
 
@@ -522,10 +521,10 @@ div.card > img {
 		align-items: center;
 	}
 	.gallery-text {
-		text-align: center;
-	   top: -200px;
-	   left: auto;
-	   right: auto;
+	   text-align: center;
+	   top: -300px;
+	   left: 0;
+	   right: 0;
 	   width: 100%;
     }
 	.content-text  {
@@ -550,8 +549,8 @@ div.card > img {
     .gallery-text {
        text-align: center;
 	   top: -200px;
-	   left: auto;
-	   right: auto;
+	   left: 0;
+	   right: 0;
 	   width: 100%;
     }
 }
